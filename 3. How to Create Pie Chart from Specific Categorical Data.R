@@ -3,6 +3,10 @@ Pie chart is type chart when we want to know the percentage as a whole
   2. We create factor with vector based on the data that we got in counting categorical data before
   In R, factor() is a function used to create a categorical or factor variable from a vector. 
 
+before creating Pie Chart using this, u need to install less R packages
+install.packages('lessR')
+library(lessR)
+
 For example :
 counts_events_class <- factor(c(rep("Class.I",17121),
                                 rep("Class.II",59049),
